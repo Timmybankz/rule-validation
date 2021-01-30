@@ -7,7 +7,8 @@ const data = require('../utils/my-info');
 router.get('/', async (req, res) => {
 
   const myDetails = data.myInfo;
-  return res.status(200).json(resFunc.successResponse('My Rule-Validation API.', myDetails));
+  const { resPayload } = resFunc.successResponse('My Rule-Validation API', myDetails);
+  return res.status(200).json(resPayload);
 });
 
 
