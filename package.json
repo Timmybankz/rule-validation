@@ -1,0 +1,21 @@
+{
+  "name": "flutterwave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node test"
+  },
+  "author": "Isaac Anyam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.3.0",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  }
+}
